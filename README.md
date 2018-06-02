@@ -5,6 +5,9 @@
 * 第二赛季排名：41/2322
 * 最好成绩：NE=4.45%
 
+## 结果展示
+![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/Readme_images/blouse.jpg)
+
 ## 代码环境说明
 我们的代码运行环境为：
 * 操作系统：Ubuntu16.04 LTS
@@ -86,4 +89,3 @@ test_data_file = '....../FashionAI Key Points Detection_83_AILAB-ZJU/data/annota
 
 ## 整合标签
 将测试得到的csv文件整合成一个csv文件。
-
