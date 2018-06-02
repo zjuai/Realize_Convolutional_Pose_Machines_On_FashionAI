@@ -57,8 +57,8 @@
 |--README.md
 ```
 **详细说明**：
-* **TRAIN**：包括多个实验文件，每个文件夹包含一种实验代码，文件名即实验名称。每个文件均由*models*、*preprocess*、*config.py*和*run_training*四个部分构成，其中*models*中存放的是模型文件，*preprocess*中存放的是数据生成器的py文件，*config.py*是训练的配置文件，*run_training*为训练的执行文件。
-* **TEST**：包含三种test模式，分别是常规test、带增广的test、结合衣服面积占比增广的test，文件名称分别为*normal_test*、*test_add_aug*、*test_add_aug_with_IOU*。测试文件均由*checkpoints*、*models*、*preprocess*、*config.py*、*test_config.py*和*run_test*六个部分构成，其中“checkpoints”中存放的是训练生成的模型参数的checkpoint文件夹，需从Train中生成并拷贝过来，models中存放的是模型文件，preprocess中存放的是测试图片预处理的py文件，*config.py*是训练的配置文件（测试时需要搭建训练时的模型结构），*test_config.py*是测试的配置文件，*run_test.py*为测试的执行文件。
+* **Train**：包括多个实验文件，每个文件夹包含一种实验代码，文件名即实验名称。每个文件均由*models*、*preprocess*、*config.py*和*run_training*四个部分构成，其中*models*中存放的是模型文件，*preprocess*中存放的是数据生成器的py文件，*config.py*是训练的配置文件，*run_training*为训练的执行文件。
+* **Test**：包含三种test模式，分别是常规test、带增广的test、结合衣服面积占比增广的test，文件名称分别为*normal_test*、*test_add_aug*、*test_add_aug_with_IOU*。测试文件均由*checkpoints*、*models*、*preprocess*、*config.py*、*test_config.py*和*run_test*六个部分构成，其中“checkpoints”中存放的是训练生成的模型参数的checkpoint文件夹，需从Train中生成并拷贝过来，models中存放的是模型文件，preprocess中存放的是测试图片预处理的py文件，*config.py*是训练的配置文件（测试时需要搭建训练时的模型结构），*test_config.py*是测试的配置文件，*run_test.py*为测试的执行文件。
 
 ## 训练流程
 * 修改每个实验文件中的*preprocess/config.cfg*中的两个路径，要修改的路径为```train_data_file```和```img_directory```，分别为训练图片的标签csv文件路径和训练图片路径。
