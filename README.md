@@ -6,7 +6,7 @@
 * 最好成绩：NE=4.45%
 
 ## 结果展示
-![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/Readme_images/blouse.jpg)
+![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
 
 ## 代码环境说明
 我们的代码运行环境为：
