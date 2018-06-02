@@ -3,10 +3,14 @@
 * 队伍名称：AILAB-ZJU
 * 第一赛季排名：70/2322
 * 第二赛季排名：41/2322
-* 最好成绩：NE=4.45%
+* 最好成绩：第二赛季B榜NE=4.45%
 
 ## 结果展示
 ![blouse](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/blouse.jpg)
+![dress](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/dress.jpg)
+![outwear](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/outwear.jpg)
+![skirt](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/skirt.jpg)
+![trousers](https://github.com/shaoniangu/Realize_Convolutional_Pose_Machines_On_FashionAI/raw/master/Readme_images/trousers.jpg)
 
 ## 代码环境说明
 我们的代码运行环境为：
