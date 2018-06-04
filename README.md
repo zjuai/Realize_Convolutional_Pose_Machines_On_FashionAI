@@ -1,4 +1,4 @@
-﻿# FashionAI服饰关键点定位全球挑战赛 *AILAB-ZJU* 源码
+﻿# FashionAI服饰关键点定位全球挑战赛 *AILAB-ZJU* 源码（持续更新最新实验）
 * 比赛名称：天池FashionAI服饰关键点定位全球挑战赛
 * 队伍名称：AILAB-ZJU
 * 第一赛季排名：70/2322
@@ -20,6 +20,9 @@
 * Tensorflow版本：1.3.0
 * 必要的库函数：pickle、pandas、numpy、math、os、sys、matplotlib、random、time、skimage、scipy、PIL、importlib、configparser、imageio
 * 使用的Baseline模型：Convolutional Pose Machines
+* 原作者版权：Apache License 2.0
+* 原作者代码地址：https://github.com/timctho/convolutional-pose-machines-tensorflow
+* 使用时请遵循Apache License 2.0规定，在此仅供分享学习。
 
 ## 代码结构说明
 整套代码文件由Results、Train、Test三部分构成，其中Results为存放gt结果和评测代码的文件夹、Train为训练代码文件、Test为测试代码文件，结构展示如下：
