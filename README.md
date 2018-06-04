@@ -20,8 +20,8 @@
 * Tensorflow版本：1.3.0
 * 必要的库函数：pickle、pandas、numpy、math、os、sys、matplotlib、random、time、skimage、scipy、PIL、importlib、configparser、imageio
 * 使用的Baseline模型：Convolutional Pose Machines
-* 原作者版权：Apache License 2.0
-* 原作者代码地址：https://github.com/timctho/convolutional-pose-machines-tensorflow
+* Baseline模型原作者版权：Apache License 2.0
+* Baseline模型原作者代码地址：https://github.com/timctho/convolutional-pose-machines-tensorflow
 * 使用时请遵循Apache License 2.0规定，在此仅供分享学习。
 
 ## 代码结构说明
