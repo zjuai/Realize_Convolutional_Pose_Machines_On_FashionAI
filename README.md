@@ -22,12 +22,12 @@ Our code execution environment is:
 * Baseline model used: Convolutional Pose Machines
 * Baseline model original author copyright: Apache License 2.0
 * Baseline model original author code address: https://github.com/timctho/convolutional-pose-machines-tensorflow
-* Please follow the Apache License 2.0 rules for use only for shared learning.
+* Please follow the Apache License 2.0 rules，use only for shared learning.
 
 ## code structure description
 The whole set of code files consists of three parts: Results, Train, and Test. Among them, Results is the folder for storing gt results and evaluation codes, Train is train code files, and Test is test code files. The structure is shown below.
 ```
-|--data
+|--Results
 |--Train
    |--no occlusion
 	 |--models
@@ -109,7 +109,7 @@ The whole set of code files consists of three parts: Results, Train, and Test. A
 ## 代码结构说明
 整套代码文件由Results、Train、Test三部分构成，其中Results为存放gt结果和评测代码的文件夹、Train为训练代码文件、Test为测试代码文件，结构展示如下：
 ```
-|--data
+|--Results
 |--Train
    |--no occlusion
 	 |--models
