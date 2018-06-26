@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class FLAGS(object):
 
     """
@@ -12,7 +13,7 @@ class FLAGS(object):
     normalize_img = True
     use_gpu = True
     gpu_id = '0'
-    if_show = True
+    if_show = False
     img_show_iters = 100
 
     """
@@ -34,3 +35,14 @@ class FLAGS(object):
     training_iters = int(total_num * total_epoch / batch_size)
     validation_iters = 100
     model_save_iters = 10000
+
+
+
+
+
+
+
+
+
+
+
